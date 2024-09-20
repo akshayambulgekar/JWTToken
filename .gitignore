@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask cache directory
+instance/
+*.pyc
+
+# Environment variables and secrets
+.env
+*.env
+
+# Virtual environment directory
+venv/
+.venv/
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.out
+*.err
+
+# PyTest cache and coverage files
+.cache/
+*.cover
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller files
+dist/
+build/
+
+# Docker
+docker-compose.yml
+Dockerfile
+*.docker
+
+# MacOS files
+.DS_Store
+
+# IDE files (e.g., VSCode)
+.vscode/
+.idea/
+
+# System files
+*.swp
+*.swo
+*.bak
